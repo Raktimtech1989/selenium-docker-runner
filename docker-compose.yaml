@@ -23,7 +23,7 @@ services:
     volumes:
       - ./downloads:/home/seluser/Downloads
   book-flight-module:
-    image: raktimtech1989/selenium-docker:v1
+    image: raktimtech1989/selenium-docker:latest
     depends_on:
       - chrome
       - firefox
